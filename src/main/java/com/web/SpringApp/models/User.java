@@ -4,7 +4,7 @@ package com.web.SpringApp.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "User")
+@Table(name = "user")
 public class User {
     @Id
     @Column(name = "id")
