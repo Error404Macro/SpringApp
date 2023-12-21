@@ -2,6 +2,7 @@ package com.web.SpringApp.controller;
 
 
 import com.web.SpringApp.Service.UserService;
+import com.web.SpringApp.Service.UserServiceImpl;
 import com.web.SpringApp.models.User;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,6 @@ public class UserController {
 
 	@Autowired
 	public UserController(UserService userService) {
-
 		this.userService = userService;
 	}
 

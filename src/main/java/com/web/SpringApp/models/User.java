@@ -9,18 +9,18 @@ public class User {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private int id;
 
     @Column(name = "name")
     private String name;
 
     @Column(name = "age")
-    private Integer age;
+    private int age;
 
     public User() {
     }
 
-    public User(Integer id, String name, Integer age) {
+    public User(int id, String name, int age) {
         this.id=id;
         this.name = name;
         this.age = age;
